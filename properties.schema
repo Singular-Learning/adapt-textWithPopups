@@ -1,0 +1,81 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "globals": {
+    "ariaRegion": {
+      "type": "string",
+      "required": true,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    }
+  },
+  "properties": {
+    "_supportedLayout": {
+      "type": "string",
+      "required": true,
+      "enum": ["full-width", "half-width", "both"],
+      "default": "both",
+      "editorOnly": true
+    },
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the instruction text",
+      "translatable": true
+    },
+    "_isPopupOptional": {
+      "type":"boolean",
+      "required":false,
+      "default": true,
+      "title": "Are the popups optional?",
+      "inputType": {"type": "Boolean", "options": [true, false]},
+      "validators": [],
+      "help": "If set to 'true' you do not have to open the popups to set the component to completed"
+    },
+    "_items":{
+      "type":"array",
+      "required":false,
+      "title": "Popups",
+      "items": {
+        "type":"object",
+        "required":false,
+        "properties": {
+          "id": {
+            "type":"string",
+            "required": false,
+            "default": "",
+            "inputType": "Text",
+            "validators": [],
+            "help": "Link id",
+            "translatable": true
+          },
+          "title": {
+            "type":"string",
+            "required": false,
+            "default": "",
+            "inputType": "Text",
+            "validators": [],
+            "help": "Title of the popup",
+            "translatable": true
+          },
+          "body": {
+            "type":"string",
+            "required": false,
+            "default": "",
+            "inputType": "TextArea",
+            "validators": [],
+            "help": "Main text of the popup.",
+            "translatable": true
+          }
+        }
+      }
+    }
+  }
+}

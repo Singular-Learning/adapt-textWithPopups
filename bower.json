@@ -1,0 +1,17 @@
+{
+    "name": "adapt-textWithPopups",
+    "framework": ">=5",
+    "version": "1.0.0",
+    "homepage": "https://github.com/Singular-Learning/adapt-textWithPopups",
+    "repository": "git://github.com/Singular-Learning/adapt-textWithPopups.git",
+    "issues": "https://github.com/Singular-Learning/adapt-textWithPopups/issues/",
+    "component": "textwithpopup",
+    "displayName": "Text With Popups",
+    "description": "A simple text component where you can link words to open a popup",
+    "main": "/js/adapt-textWithPopup.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-component"
+    ],
+    "license": "GPL-3.0"
+}

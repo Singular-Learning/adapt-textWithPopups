@@ -1,0 +1,20 @@
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "textwithpopup",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Our first look at a component",
+        "displayTitle": "Our first look at a component",
+        "body":"This component you're reading is a textWithPopups component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed.<br><br>You can add as many popups as you want, just keep in mind that they can't have the same id. Here is an example of how to link a popup: <a href=\"#\" id=\"P01\">text that opens the popup</a>.",
+        "instruction":"",
+        "_isPopupOptional": true,
+        "_items": [
+            {
+                "id": "P01",
+                "title": "Popup title",
+                "body": "This is the body of the popup"
+            }
+        ]
+    }
