@@ -1,7 +1,7 @@
 {
     "name": "adapt-textWithPopups",
     "framework": ">=5",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/Singular-Learning/adapt-textWithPopups",
     "repository": "git://github.com/Singular-Learning/adapt-textWithPopups.git",
     "issues": "https://github.com/Singular-Learning/adapt-textWithPopups/issues/",
