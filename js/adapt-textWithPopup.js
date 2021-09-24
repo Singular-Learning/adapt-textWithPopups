@@ -58,8 +58,8 @@ define([
 
       event && event.preventDefault();
 
-      var currentPopup = event.target;
-      popupItems = this.model.get('_items');
+      var currentPopup = event.target,
+      popupItems = this.model.get('_items'),
       popupObject = {};
 
       popupItems.forEach(function(current){
